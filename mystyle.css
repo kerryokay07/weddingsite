@@ -1,0 +1,125 @@
+﻿body {
+    background-image: url(https://d3t14gfu9ehll4.cloudfront.net/themes/fbe04fa0-1408-4fd8-ac6e-384c7a8ebece/undefined_z1wqPbi.png);
+    background-repeat: repeat;
+}
+ul {
+    background-image: url(https://d3t14gfu9ehll4.cloudfront.net/themes/fbe04fa0-1408-4fd8-ac6e-384c7a8ebece/undefined_z1wqPbi.png);
+    background-repeat: repeat;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 105%;
+    position: fixed;
+    top: 0;
+    margin-left: -10px;
+    margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.0725em;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000540;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #000540;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Anter', cursive;
+    font-size: 96px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.0725em;
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    
+}
+
+h3.upperText {
+    letter-spacing: 0.0925em;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+h3.bodyText {
+    text-align: left;
+}
+
+div.bodyText {
+    margin-left: 20%;
+    margin-right: 20%;   
+}
+
+div.map {
+    display: block;
+    margin: auto;
+    padding: 0;
+    width: 620px;
+    height: 470px;
+    background-color: white;
+}
+
+div.oneBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+div.threeBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+iframe.map {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+img.flower {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+img.flowerBox {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+img.picture {
+    width: 20%;
+    height: 20%;
+    border: solid white 10px;
+}
