@@ -1,15 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/c485bd943deb738cde7beb2a970fefa8?family=Anter);
-
-@font-face {font-family: "Anter";
-    src: url("//db.onlinewebfonts.com/t/c485bd943deb738cde7beb2a970fefa8.eot");
-    src: url("//db.onlinewebfonts.com/t/c485bd943deb738cde7beb2a970fefa8.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/c485bd943deb738cde7beb2a970fefa8.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/c485bd943deb738cde7beb2a970fefa8.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/c485bd943deb738cde7beb2a970fefa8.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/c485bd943deb738cde7beb2a970fefa8.svg#Anter") format("svg");
-}
-
-body {
+﻿body {
     background-image: url(https://d3t14gfu9ehll4.cloudfront.net/themes/fbe04fa0-1408-4fd8-ac6e-384c7a8ebece/undefined_z1wqPbi.png);
     background-repeat: repeat;
 }
@@ -94,6 +83,14 @@ div.map {
     background-color: white;
 }
 
+div.rsvp {
+    margin: auto;
+    padding: 0;
+    width: 920px;
+    height: 520px;
+    background-color: white;
+}
+
 div.oneBox {
     display: flex;
     justify-content: center;
@@ -110,7 +107,7 @@ div.threeBox {
     padding-bottom: 20px;
 }
 
-iframe.map {
+iframe.map, iframe.rsvp {
     padding-left: 10px;
     padding-top: 10px;
 }
@@ -133,4 +130,34 @@ img.picture {
     width: 20%;
     height: 20%;
     border: solid white 10px;
+}
+
+img.divider {
+    width: 20%;
+    height: 20%;
+}
+
+
+.myButton {
+    background-color: #599bb3;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: #408c99;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
 }
