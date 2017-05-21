@@ -4,12 +4,50 @@
 <head>
     <meta charset="utf-8" />
     <title>Hera & Kerry - Photos</title>
-    <link rel="shortcut icon" type="image/png" href="icon_hk.png" />
+    <link rel="shortcut icon" type="image/png" href="./asset/icon_hk.png" />
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="http://db.onlinewebfonts.com/c/c485bd943deb738cde7beb2a970fefa8?family=Anter" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="./galleria/galleria-1.5.7.min.js"></script>
+    <style>
+        .galleria {
+            max-width: 600px;
+            height: 600px;
+            background: #000
+        }
+    </style>
 </head>
 <body>
+
+    <br />
+    <h1>photos gallery</h1>
+    <div class="oneBox">
+        <img class="divider" src="./asset/divide1.png" style="margin-top:-40px;" />
+    </div>
+    <div class="pictureGallery" style="padding-left:10px; padding-right:10px; padding-top:10px;">
+        <div class="galleria">
+            <a href="./asset/Picture1.jpg"><img src="./asset/Picture1.jpg" /></a>
+            <a href="./asset/Picture2.jpg"><img src="./asset/Picture2.jpg" /></a>
+            <a href="./asset/Picture3.jpg"><img src="./asset/Picture3.jpg" /></a>
+            <a href="./asset/Picture4.jpg"><img src="./asset/Picture4.jpg" /></a>
+            <a href="./asset/Picture5.jpg"><img src="./asset/Picture5.jpg" /></a>
+            <a href="./asset/Picture6.jpg"><img src="./asset/Picture6.jpg" /></a>
+            <a href="./asset/Picture7.jpg"><img src="./asset/Picture7.jpg" /></a>
+            <a href="./asset/Picture8.jpg"><img src="./asset/Picture8.jpg" /></a>
+        </div>
+    </div>
+    <br /><br /><p> </p>
+    <script>
+        (function () {
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria', {
+                lightbox: true,
+                autoplay: 7000
+            });
+        }());
+    </script>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="rsvp.html">RSVP</a></li>
